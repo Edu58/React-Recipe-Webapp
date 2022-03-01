@@ -1,6 +1,26 @@
-# Getting Started with Create React App
+# Recipe Website (Foodie)
+## Author: Edu58
+This website called Foodie made in React. It uses Axios to request data from themealdb API anad react-bootstrap for the UI. It also utilizes hooks such as useEffect and useState. Components are a key concept in this project to avoid repetition of code.
+
+### Homepage
+![random](public/home.png)
+Home screen. It uses the useEffect to automatically load a random recipe on page load.
+
+### Search Results
+![search](public/search.png)
+This is the search page. The grids are activated once the user enters a meal name and searches with a successful response from the API. If no such meal is found, an alert is showed to the user.
+
+### Recipe Modal
+![modal](public/modal.png)
+If the user wants to see the recipe, they can click the recipe button and a modal will be activated. It uses useState hook under the hood to keep track of when to open and close the modal. The modal is a react-bootstrap component.
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+
+<br>
+<br>
+<br>
+<br>
+<br>
 
 ## Available Scripts
 
