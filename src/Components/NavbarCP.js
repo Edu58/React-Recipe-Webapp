@@ -14,9 +14,6 @@ const NavigationBar = () => {
               <Nav.Link href="/" className="text-light mx-lg-5">
                 Home
               </Nav.Link>
-              <Nav.Link href="#link" className="text-light">
-                About
-              </Nav.Link>
             </Nav>
           </Navbar.Collapse>
         </div>

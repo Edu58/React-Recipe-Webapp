@@ -15,13 +15,11 @@ const MealCard = (props) => {
   }
 
     return (
-      <div className="d-flex justify-content-center">
-        <Card style={{ width: "20rem" }}>
+      <div className="container d-flex justify-content-center">
+        <Card style={{ width: "20rem" }} className="mb-5">
           <Card.Img variant="top" src={props.mealimg} className="img-fluid" />
-          <Card.Body>
-            <Card.Title className="fs-4 mb-4">
-              Name: {props.title}
-            </Card.Title>
+          <Card.Body key={props.id}>
+            <Card.Title className="fs-4 mb-4">Name: {props.title}</Card.Title>
             <Card.Text className="lead">Origin: {props.origin}</Card.Text>
             <Card.Text className="lead">Category: {props.category}</Card.Text>
 
